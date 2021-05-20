@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n = 100;
+    int n = 4;
     double** a = new double* [n];
     for (int i = 0; i < n; ++i) {
         a[i] = new double[n];
